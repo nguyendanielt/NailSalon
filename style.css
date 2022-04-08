@@ -4,7 +4,7 @@ body {
 }
 
 .nav-item:hover {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .bg-dark .navbar-nav .nav-link:focus {
@@ -39,6 +39,7 @@ body {
 
 #about-desc {
   font-size: 17px;
+  color: white;
 }
 
 @media (max-width: 650px) {
@@ -47,7 +48,12 @@ body {
   }
 }
 
-.section-title {
+.section-title-light {
+  color: white;
+  font-size: 30px;
+}
+
+.section-title-dark {
   font-size: 30px;
 }
 
@@ -74,7 +80,7 @@ body {
     top: 0%;
     left: 15%;
   }
-  .section-title {
+  .section-title-light, .section-title-dark {
     font-size: 16px;
   }
   #pricing-desc, .fs-adjust-pricing {
@@ -90,8 +96,8 @@ body {
   border-color: black;
 }
 
-.icons a {
-  color: inherit;
+.icons, .icons a {
+  color: white;
 }
 
 .icon {
