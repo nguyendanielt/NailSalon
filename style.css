@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item:hover {
+  background-color: grey;
+}
+
+.bg-dark .navbar-nav .nav-link:focus {
+  color: white;
+}
+
+.navbar-nav, .navbar-toggler {
+  margin-right: 25px;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+  font-size: 26px;
+}
+
+.position-img-contents-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-90%, -50%);
+}
+
+.fs-adjust-home {
+  font-size: 30px;
+}
+
+@media (max-width: 730px) {
+  .fs-adjust-home {
+    font-size: 18px;
+  }
+}
+
+#about-desc {
+  font-size: 17px;
+}
+
+@media (max-width: 650px) {
+  #about-desc {
+    font-size: 12px;
+  }
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
+  transform: translate(0%, -0.5%);
+}
+
+.position-img-contents-pricing {
+  position: absolute;
+  top: 18%;
+  left: 15%;
+}
+
+#pricing-desc, .fs-adjust-pricing {
+  font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+  .position-img-contents-pricing {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+  }
+  .section-title {
+    font-size: 16px;
+  }
+  #pricing-desc, .fs-adjust-pricing {
+    font-size: 10px;
+  }
+  .contact-more-info {
+    display: inline;
+  }
+}
+
+#email {
+  width: 30%;
+  border-color: black;
+}
+
+.icons a {
+  color: inherit;
+}
+
+.icon {
+  font-size: 35px;
+  margin-right: 25px;
+}
