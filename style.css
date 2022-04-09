@@ -4,7 +4,7 @@ body {
 }
 
 .nav-item:hover {
-  background-color: lightgrey;
+  background-color: grey;
 }
 
 .bg-dark .navbar-nav .nav-link:focus {
@@ -20,19 +20,34 @@ body {
   font-size: 26px;
 }
 
-.position-img-contents-home {
+#hero {
+  position: relative;
+  height: 91.5vh;
+  overflow: hidden;
+}
+
+#hero img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-90%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
 }
 
-.fs-adjust-home {
+.img-contents-hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fs-adjust-hero {
   font-size: 30px;
 }
 
 @media (max-width: 730px) {
-  .fs-adjust-home {
+  .fs-adjust-hero {
     font-size: 18px;
   }
 }
